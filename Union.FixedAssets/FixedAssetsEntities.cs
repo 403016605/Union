@@ -3,7 +3,7 @@ using Union.Core.Base;
 
 namespace Union.FixedAssets
 {
-    public class FixedAssetsEntities : BaseContextBase<IFixedAssetsMapping>
+    public class FixedAssetsEntities : ContextBase<IFixedAssetsMapping>
     {
         public FixedAssetsEntities(string conn)
             : base(conn)

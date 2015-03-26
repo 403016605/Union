@@ -47,7 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Base\BaseContextBase.cs" />
+    <Compile Include="Base\ContextBase.cs" />
     <Compile Include="Base\BaseMigrationsConfiguration.cs" />
     <Compile Include="Base\EntityBase.cs" />
     <Compile Include="IRepository.cs" />

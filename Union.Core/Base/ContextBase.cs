@@ -6,9 +6,9 @@ using System.Data.Entity;
 
 namespace Union.Core.Base
 {
-    public abstract class BaseContextBase<T> : DbContext, IUnitOfWork where T : IMapping
+    public abstract class ContextBase<T> : DbContext, IUnitOfWork where T : IMapping
     {
-        protected BaseContextBase(string conn)
+        protected ContextBase(string conn)
             : base(conn)
         {
             InitConfiguration();

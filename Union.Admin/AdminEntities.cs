@@ -3,7 +3,7 @@ using Union.Core.Base;
 
 namespace Union.Admin
 {
-    public class AdminEntities : BaseContextBase<IAdminMapping>
+    public class AdminEntities : ContextBase<IAdminMapping>
     {
         public AdminEntities(string conn)
             : base(conn)
