@@ -1,0 +1,12 @@
+c:\users\work\documents\visual studio 2012\Projects\Union\Union.Core\bin\Debug\Union.Core.dll.config
+c:\users\work\documents\visual studio 2012\Projects\Union\Union.Core\bin\Debug\Union.Core.dll
+c:\users\work\documents\visual studio 2012\Projects\Union\Union.Core\bin\Debug\Union.Core.pdb
+c:\users\work\documents\visual studio 2012\Projects\Union\Union.Core\bin\Debug\EntityFramework.dll
+c:\users\work\documents\visual studio 2012\Projects\Union\Union.Core\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\work\documents\visual studio 2012\Projects\Union\Union.Core\bin\Debug\Union.Share.dll
+c:\users\work\documents\visual studio 2012\Projects\Union\Union.Core\bin\Debug\Union.Share.pdb
+c:\users\work\documents\visual studio 2012\Projects\Union\Union.Core\bin\Debug\EntityFramework.xml
+c:\users\work\documents\visual studio 2012\Projects\Union\Union.Core\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\work\documents\visual studio 2012\Projects\Union\Union.Core\obj\Debug\Union.Core.csprojResolveAssemblyReference.cache
+c:\users\work\documents\visual studio 2012\Projects\Union\Union.Core\obj\Debug\Union.Core.dll
+c:\users\work\documents\visual studio 2012\Projects\Union\Union.Core\obj\Debug\Union.Core.pdb

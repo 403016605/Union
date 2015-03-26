@@ -1,0 +1,5 @@
+c:\users\work\documents\visual studio 2012\Projects\Union\Union.Share\bin\Debug\Union.Share.dll
+c:\users\work\documents\visual studio 2012\Projects\Union\Union.Share\bin\Debug\Union.Share.pdb
+c:\users\work\documents\visual studio 2012\Projects\Union\Union.Share\obj\Debug\Union.Share.csprojResolveAssemblyReference.cache
+c:\users\work\documents\visual studio 2012\Projects\Union\Union.Share\obj\Debug\Union.Share.dll
+c:\users\work\documents\visual studio 2012\Projects\Union\Union.Share\obj\Debug\Union.Share.pdb
