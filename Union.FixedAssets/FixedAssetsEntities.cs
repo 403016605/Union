@@ -3,6 +3,7 @@ using Union.Core.Base;
 
 namespace Union.FixedAssets
 {
+    [DbConfigurationType(typeof(MySql.Data.Entity.MySqlEFConfiguration))]
     public class FixedAssetsEntities : ContextBase<IFixedAssetsMapping>
     {
         public FixedAssetsEntities(string conn)

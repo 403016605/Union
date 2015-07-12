@@ -11,3 +11,16 @@ c:\users\work\documents\visual studio 2012\Projects\Union\Union.Admin\bin\Debug\
 c:\users\work\documents\visual studio 2012\Projects\Union\Union.Admin\bin\Debug\EntityFramework.SqlServer.xml
 c:\users\work\documents\visual studio 2012\Projects\Union\Union.Admin\obj\Debug\Union.Admin.dll
 c:\users\work\documents\visual studio 2012\Projects\Union\Union.Admin\obj\Debug\Union.Admin.pdb
+F:\Source\Repos\Union\Union.Admin\bin\Debug\Union.Admin.dll.config
+F:\Source\Repos\Union\Union.Admin\bin\Debug\Union.Admin.dll
+F:\Source\Repos\Union\Union.Admin\bin\Debug\Union.Admin.pdb
+F:\Source\Repos\Union\Union.Admin\bin\Debug\EntityFramework.dll
+F:\Source\Repos\Union\Union.Admin\bin\Debug\Union.Core.dll
+F:\Source\Repos\Union\Union.Admin\bin\Debug\Union.Share.dll
+F:\Source\Repos\Union\Union.Admin\bin\Debug\Union.Core.pdb
+F:\Source\Repos\Union\Union.Admin\bin\Debug\Union.Share.pdb
+F:\Source\Repos\Union\Union.Admin\bin\Debug\EntityFramework.xml
+F:\Source\Repos\Union\Union.Admin\obj\Debug\Union.Admin.csprojResolveAssemblyReference.cache
+F:\Source\Repos\Union\Union.Admin\obj\Debug\Union.Admin.dll
+F:\Source\Repos\Union\Union.Admin\obj\Debug\Union.Admin.pdb
+F:\Source\Repos\Union\Union.Admin\bin\Debug\MySql.Data.Entity.EF6.dll

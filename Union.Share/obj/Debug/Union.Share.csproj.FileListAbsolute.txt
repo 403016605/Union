@@ -3,3 +3,7 @@ c:\users\work\documents\visual studio 2012\Projects\Union\Union.Share\bin\Debug\
 c:\users\work\documents\visual studio 2012\Projects\Union\Union.Share\obj\Debug\Union.Share.csprojResolveAssemblyReference.cache
 c:\users\work\documents\visual studio 2012\Projects\Union\Union.Share\obj\Debug\Union.Share.dll
 c:\users\work\documents\visual studio 2012\Projects\Union\Union.Share\obj\Debug\Union.Share.pdb
+F:\Source\Repos\Union\Union.Share\bin\Debug\Union.Share.dll
+F:\Source\Repos\Union\Union.Share\bin\Debug\Union.Share.pdb
+F:\Source\Repos\Union\Union.Share\obj\Debug\Union.Share.dll
+F:\Source\Repos\Union\Union.Share\obj\Debug\Union.Share.pdb

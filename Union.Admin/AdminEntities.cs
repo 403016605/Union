@@ -3,6 +3,7 @@ using Union.Core.Base;
 
 namespace Union.Admin
 {
+    [DbConfigurationType(typeof(MySql.Data.Entity.MySqlEFConfiguration))]
     public class AdminEntities : ContextBase<IAdminMapping>
     {
         public AdminEntities(string conn)
