@@ -8,6 +8,8 @@ namespace Union.Core.Base
 {
     public abstract class ContextBase<T> : DbContext, IUnitOfWork where T : IMapping
     {
+        [ImportMany] private IEnumerable<T> _list;
+
         protected ContextBase(string conn)
             : base(conn)
         {
@@ -24,7 +26,6 @@ namespace Union.Core.Base
         }
 
         public abstract void InitConfiguration();
-
         public abstract void InitDataBaseStrategy();
 
         public void InitMapping()
@@ -34,9 +35,6 @@ namespace Union.Core.Base
             var container = new CompositionContainer(catalog);
             _list = container.GetExportedValues<T>();
         }
-
-        [ImportMany]
-        IEnumerable<T> _list;
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

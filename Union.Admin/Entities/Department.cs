@@ -6,7 +6,7 @@ using Union.Share.Extension;
 namespace Union.Admin.Entities
 {
     /// <summary>
-    /// 部门
+    ///     部门
     /// </summary>
     public class Department : Entity
     {

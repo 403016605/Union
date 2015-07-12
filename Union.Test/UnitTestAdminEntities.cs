@@ -12,7 +12,7 @@ namespace Union.Test
     public class UnitTestAdminEntities
     {
         /// <summary>
-        /// 测试：创建AdminEntities数据库
+        ///     测试：创建AdminEntities数据库
         /// </summary>
         [TestMethod]
         public void TestMethodCreateDb()

@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 namespace Union.Admin.Entities
 {
     /// <summary>
-    /// 角色
+    ///     角色
     /// </summary>
     public class Role : Entity
     {

@@ -11,7 +11,7 @@ namespace Union.Core.Base
     {
         protected EntityBase()
         {
-            this.Id = Guid.NewGuid();
+            Id = Guid.NewGuid();
         }
 
         #region 实体基本属性

@@ -18,6 +18,5 @@ namespace Union.Admin.Entities
 
         [Description("包含的流程状态")]
         public virtual ICollection<WorkflowNode> WorkflowNodes { get; set; }
-
     }
 }

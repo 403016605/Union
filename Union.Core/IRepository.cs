@@ -3,11 +3,16 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using Union.Share;
 
-
 namespace Union.Core
 {
-    public interface IRepository<T> where T:IEntity
+    public interface IRepository<T> where T : IEntity
     {
+        #region 删除
+
+        int Delete(Expression<Func<T, bool>> predicate);
+
+        #endregion
+
         #region 查询
 
         IEquatable<T> Query(Expression<Func<T, bool>> predicate);
@@ -28,13 +33,7 @@ namespace Union.Core
 
         bool Edit(T entity);
 
-        int Edit(Expression<Func<T, bool>> predicate,Dictionary<string, object> fields);
-
-        #endregion
-
-        #region 删除
-
-        int Delete(Expression<Func<T, bool>> predicate);
+        int Edit(Expression<Func<T, bool>> predicate, Dictionary<string, object> fields);
 
         #endregion
     }

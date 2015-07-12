@@ -1,21 +1,20 @@
 ﻿using System.Data.Entity;
+using MySql.Data.Entity;
 using Union.Core.Base;
 
 namespace Union.Admin
 {
-    [DbConfigurationType(typeof(MySql.Data.Entity.MySqlEFConfiguration))]
+    [DbConfigurationType(typeof (MySqlEFConfiguration))]
     public class AdminEntities : ContextBase<IAdminMapping>
     {
         public AdminEntities(string conn)
             : base(conn)
         {
-
         }
 
         public AdminEntities()
             : base("name=AdminEntities")
         {
-
         }
 
         public override void InitConfiguration()
@@ -27,7 +26,8 @@ namespace Union.Admin
 
         public override void InitDataBaseStrategy()
         {
-            Database.SetInitializer(new MigrateDatabaseToLatestVersion<AdminEntities, BaseMigrationsConfiguration<AdminEntities>>());
+            Database.SetInitializer(
+                new MigrateDatabaseToLatestVersion<AdminEntities, BaseMigrationsConfiguration<AdminEntities>>());
         }
     }
 }

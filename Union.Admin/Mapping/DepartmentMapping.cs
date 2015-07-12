@@ -6,9 +6,5 @@ namespace Union.Admin.Mapping
     [Export("DepartmentMapping")]
     internal class DepartmentMapping : Mapping<Department>
     {
-        public DepartmentMapping()
-        {
-            
-        }
     }
 }

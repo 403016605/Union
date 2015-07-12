@@ -4,6 +4,5 @@ namespace Union.FixedAssets.Entities
 {
     public abstract class Entity : EntityBase
     {
-
     }
 }

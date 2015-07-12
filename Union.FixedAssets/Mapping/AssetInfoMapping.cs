@@ -6,9 +6,5 @@ namespace Union.FixedAssets.Mapping
     [Export("AssetInfoMapping")]
     internal class AssetInfoMapping : Mapping<AssetInfo>
     {
-        public AssetInfoMapping()
-        {
-
-        }
     }
 }

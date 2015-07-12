@@ -5,11 +5,11 @@ using Union.Core;
 namespace Union.FixedAssets
 {
     internal class Mapping<TEntity> : EntityTypeConfiguration<TEntity>, IFixedAssetsMapping
-    where TEntity : class,IEntity
+        where TEntity : class, IEntity
     {
         public Mapping()
         {
-            Map(m => m.ToTable(typeof(TEntity).Name));
+            Map(m => m.ToTable(typeof (TEntity).Name));
         }
 
         public void RegistTo(ConfigurationRegistrar configurationRegistrar)

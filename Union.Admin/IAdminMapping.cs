@@ -6,6 +6,5 @@ namespace Union.Admin
     [InheritedExport]
     public interface IAdminMapping : IMapping
     {
-
     }
 }

@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 namespace Union.Admin.Entities
 {
     /// <summary>
-    /// 人员
+    ///     人员
     /// </summary>
     public class Person : Entity
     {

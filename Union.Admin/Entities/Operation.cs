@@ -5,9 +5,9 @@ using System.ComponentModel.DataAnnotations;
 namespace Union.Admin.Entities
 {
     /// <summary>
-    /// ²Ù×÷
+    ///     ²Ù×÷
     /// </summary>
-    public partial class Operation : Entity
+    public class Operation : Entity
     {
         [Description("²Ù×÷"), Required]
         public string Name { get; set; }

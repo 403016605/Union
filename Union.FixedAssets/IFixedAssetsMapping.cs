@@ -6,6 +6,5 @@ namespace Union.FixedAssets
     [InheritedExport]
     public interface IFixedAssetsMapping : IMapping
     {
-
     }
 }

@@ -7,9 +7,9 @@ namespace Union.Core.Base
     {
         public BaseMigrationsConfiguration()
         {
-            this.AutomaticMigrationDataLossAllowed = true;
+            AutomaticMigrationDataLossAllowed = true;
 
-            this.AutomaticMigrationsEnabled = true;
+            AutomaticMigrationsEnabled = true;
         }
     }
 }

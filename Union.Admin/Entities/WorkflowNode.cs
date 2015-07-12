@@ -25,6 +25,5 @@ namespace Union.Admin.Entities
 
         [Description("角色")]
         public virtual ICollection<Role> Roles { get; set; }
-
     }
 }

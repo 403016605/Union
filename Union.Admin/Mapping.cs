@@ -5,11 +5,11 @@ using Union.Core;
 namespace Union.Admin
 {
     internal class Mapping<TEntity> : EntityTypeConfiguration<TEntity>, IAdminMapping
-    where TEntity : class,IEntity
+        where TEntity : class, IEntity
     {
         public Mapping()
         {
-            Map(m => m.ToTable(typeof(TEntity).Name));
+            Map(m => m.ToTable(typeof (TEntity).Name));
         }
 
         public void RegistTo(ConfigurationRegistrar configurationRegistrar)

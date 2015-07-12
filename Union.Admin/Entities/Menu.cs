@@ -6,9 +6,9 @@ using System.ComponentModel.DataAnnotations;
 namespace Union.Admin.Entities
 {
     /// <summary>
-    /// 菜单
+    ///     菜单
     /// </summary>
-    public partial class Menu : Entity
+    public class Menu : Entity
     {
         [Description("菜单"), Required]
         public string Name { get; set; }
